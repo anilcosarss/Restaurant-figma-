@@ -5,10 +5,15 @@
 )
 
 
-#### The purpose of this project was converting a figma desing to HTML , CSS code .
+#### The purpose of this project was converting a figma desing below  to HTML , CSS code .
+
+![alt text](https://github.com/anilcosarss/Restaurant-figma-/blob/main/img/Ads%C4%B1z.png
+)
 
 My achievements were:
-- Learning bootstrap
+- Practicing bootstrap
+- Conterting figma desing
+- knowledge about what's where in figma
 - Bootstrap attributes
 - SCSS
 
@@ -22,5 +27,5 @@ My achievements were:
 ```
 ## To see project <a href="https://raw.githack.com/anilcosarss/Restaurant-figma-/main/index.html">Click Here!</a> 
 
-![alt text](https://github.com/anilcosarss/Nuron/blob/main/img/screencapture-file-C-Users-Lenovo-Desktop-front-end-muhsin-hocam-bootstrap-projects-nuron-index-html-2023-03-13-17_55_04.png
+![alt text](https://github.com/anilcosarss/Restaurant-figma-/blob/main/img/screencapture-file-C-Users-Lenovo-Desktop-front-end-muhsin-hocam-bootstrap-projects-bootstrap-graduation-home-html-2023-03-13-18_19_37.png
 )
