@@ -1,0 +1,37 @@
+:root {
+    --primary: #FE9315;
+    --muted: #888888; 
+    --secondary:#212429;
+  }
+
+  .bg-primary {
+    background-color: var(--primary) !important;
+  }
+
+  .text-primary {
+    color: var(--primary) !important;
+  }
+
+  .bg-muted {
+    background-color: var(--muted) !important;
+  }
+
+  .text-muted {
+    color: var(--muted) !important;
+  }
+
+  .bg-secondary {
+    background-color: var(--secondary) !important;
+  }
+
+  .text-secondary {
+    color: var(--secondary) !important;
+  }
+
+  .orange-background {
+    background-image: linear-gradient(to right, #FFA114, #F6421A);
+  }
+  .gray-backround {
+    background-image: linear-gradient(to right, #5A5752, #89807E);
+
+  }

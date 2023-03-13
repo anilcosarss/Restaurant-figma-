@@ -1,0 +1,66 @@
+.login-container {
+    
+    max-width: 433px;
+    width: 100%;
+    height: 100vh;
+    p {
+        font-size: 14px;
+    }
+    .bars {
+        bottom: 0px;
+        left: 40px;
+        filter: blur(8px);
+        
+        
+
+    }
+    .bar-1 {
+        left: 5px;
+    }
+
+    .bar-2 {
+        left: 109px;
+    }
+
+    .bar-3 {
+        left: 212px;
+    }
+
+    .bar-4 {
+        left: 689px;
+        bottom: -170px;
+    }
+
+    .bar-5 {
+        left: 1195px;
+        
+    }
+
+    .bar-6 {
+        left: 1295px;
+        
+    }
+
+    .bar-7 {
+        left: 1395px;
+
+    }
+
+
+    form {
+        label {
+            font-size: 15px;
+            
+        }
+        input {
+            &::placeholder{
+                color: white;
+            }
+        }
+
+        button {
+            background-color: red;
+            background-image: linear-gradient(to right ,#FFA114,#F6421A);
+        }
+    }
+}

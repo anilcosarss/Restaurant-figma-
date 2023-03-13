@@ -1,0 +1,308 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+aside {
+  width: 274px;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+}
+aside .aside-logo {
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+aside ul {
+  list-style: none;
+  padding-left: 20px;
+}
+aside ul li {
+  width: 232px;
+  height: 55.09px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+}
+aside ul li:hover {
+  color: #FFA114;
+  border: 2px solid;
+  -o-border-image: linear-gradient(to right, #FFA114, #F6421A 1);
+     border-image: linear-gradient(to right, #FFA114, #F6421A 1);
+  border-radius: 15px;
+}
+aside ul li:hover img {
+  filter: invert(66%) sepia(56%) saturate(817%) hue-rotate(343deg) brightness(98%) contrast(108%);
+}
+aside ul li:hover button {
+  color: #FFA114;
+}
+aside ul li:focus {
+  color: #FFA114;
+  border: 2px solid;
+  -o-border-image: linear-gradient(to right, #FFA114, #F6421A 1);
+     border-image: linear-gradient(to right, #FFA114, #F6421A 1);
+  border-radius: 15px;
+}
+aside ul li:focus img {
+  filter: invert(66%) sepia(56%) saturate(817%) hue-rotate(343deg) brightness(98%) contrast(108%);
+}
+aside ul li:focus button {
+  color: #FFA114;
+}
+aside ul li .btn-muted {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: white;
+}
+aside ul li .btn-muted img {
+  margin-right: 15px;
+}
+aside .aside-bottom {
+  margin-top: 150px;
+  margin-left: 40px;
+}
+aside .aside-bottom .green-circle {
+  width: 10px;
+  height: 10px;
+  background-color: #1CE755;
+}
+
+main {
+  padding-left: 290px;
+}
+@media only screen and (max-width: 992px) {
+  main {
+    padding-left: 0px;
+  }
+}
+main section.order-list .order-list-items {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 100%;
+  height: 80px;
+  position: relative;
+}
+main section.order-list .order-list-items::-webkit-scrollbar {
+  display: none;
+}
+main section.order-list .order-list-items button {
+  height: 45px;
+  width: 90px;
+  border-radius: 10px;
+  display: inline-block;
+  border: none;
+}
+main section.order-list .order-list-items .order-complated {
+  background-image: linear-gradient(to right, #FFA114, #F6421A);
+}
+main section.order-list .order-list-items .unordered {
+  background-image: linear-gradient(to right, #5A5752, #89807E);
+}
+main section.order-list .order-list-items .green {
+  background-color: #D2DF3D;
+}
+main section.order-list .order-list-items .blue {
+  background-color: #3DD5DF;
+}
+main section.order-list .order-list-content .order-list-card {
+  background-image: linear-gradient(to bottom, #37383a, #202021);
+}
+main section.order-list .order-list-content .order-list-card_header .profile-pictures {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: white;
+}
+main section.order-list .order-list-content .order-list-card_header .first-profile-picture {
+  background-color: #BE2828;
+}
+main section.order-list .order-list-content .order-list-card_content {
+  border-bottom: 1px solid rgb(204, 201, 201);
+}
+main section.order-list .order-list-content .order-list-card_footer button {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+}
+main section.products {
+  padding-right: 30px;
+  padding-left: 15px;
+}
+main section.products .products-content .nav-tabs .nav-item.show .nav-link,
+main section.products .products-content .nav-tabs .nav-link.active {
+  color: white !important;
+  background-color: transparent !important;
+}
+main section.products .products-content ul {
+  border-bottom: 5px solid #414448;
+  border-radius: 2px;
+}
+main section.products .products-content ul .nav-link {
+  background-color: none !important;
+}
+main section.products .products-content ul li {
+  padding-bottom: 10px;
+  background-color: transparent;
+}
+main section.products .products-content ul li button {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-bottom: 5px solid transparent;
+  border-color: transparent !important;
+}
+main section.products .products-content ul li button:focus {
+  color: white;
+  background-color: transparent;
+  border-bottom: 5px solid transparent;
+  -o-border-image: linear-gradient(to right, #FFA114, #F6421A);
+     border-image: linear-gradient(to right, #FFA114, #F6421A);
+  border-image-slice: 1;
+  width: 100%;
+}
+main section.products .products-content .same-card-products {
+  background: linear-gradient(183.65deg, #383D46 3%, rgba(108, 112, 118, 0) 107%);
+}
+main section.products .products-content .same-card-products .same-card-products_content {
+  position: relative;
+  top: -40px;
+}
+main section.order-history .order-history_content table {
+  color: white;
+  border-color: #414448;
+}
+main section.order-history .order-history_content table thead th {
+  padding: 20px 0;
+}
+main section.order-history .order-history_content table tbody th,
+main section.order-history .order-history_content table tbody td {
+  padding-top: 15px;
+}
+main section.order-history .order-history_content table .gray-box {
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background-color: #C4C4C4;
+}
+main section.order-history .order-history_content table .order-complated {
+  background-image: linear-gradient(to right, #FFA114, #F6421A);
+}
+main section.order-history .order-history_content table .unordered {
+  background-image: linear-gradient(to right, #5A5752, #89807E);
+}
+main section.order-history .order-history_content table .preparing {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+main section.messages .messages-contact {
+  height: 90vh;
+  overflow-y: auto;
+}
+main section.messages .messages-contact::-webkit-scrollbar {
+  display: none;
+}
+main section.messages .messages-contact li {
+  padding: 15px 0px;
+  border-bottom: 1px solid #858383;
+}
+main section.messages .messages-contact .contact-search {
+  background-color: #42474A;
+  padding: 0px 15px;
+  border-radius: 10px;
+}
+main section.messages .messages-contact input {
+  background-color: #42474A;
+  border: none;
+  outline: none;
+}
+main section.messages .messages-contact .support-center {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  background-color: #474747;
+}
+
+main {
+  background-image: linear-gradient(to top, #13171A, #31363A);
+}
+main nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-color: transparent;
+  z-index: 3;
+}
+main nav .profile-img {
+  width: 41px;
+  height: 41px;
+  font-size: 25px;
+  background-color: #C4C4C4;
+  color: white;
+}
+main nav .nav-search {
+  background-color: #42474A;
+  padding: 0px 15px;
+  border-radius: 10px;
+}
+main nav input {
+  background-color: #42474A;
+  border: none;
+}
+
+.login-container {
+  max-width: 433px;
+  width: 100%;
+  height: 100vh;
+}
+.login-container p {
+  font-size: 14px;
+}
+.login-container .bars {
+  bottom: 0px;
+  left: 40px;
+  filter: blur(8px);
+}
+.login-container .bar-1 {
+  left: 5px;
+}
+.login-container .bar-2 {
+  left: 109px;
+}
+.login-container .bar-3 {
+  left: 212px;
+}
+.login-container .bar-4 {
+  left: 689px;
+  bottom: -170px;
+}
+.login-container .bar-5 {
+  left: 1195px;
+}
+.login-container .bar-6 {
+  left: 1295px;
+}
+.login-container .bar-7 {
+  left: 1395px;
+}
+.login-container form label {
+  font-size: 15px;
+}
+.login-container form input::-moz-placeholder {
+  color: white;
+}
+.login-container form input:-ms-input-placeholder {
+  color: white;
+}
+.login-container form input::placeholder {
+  color: white;
+}
+.login-container form button {
+  background-color: red;
+  background-image: linear-gradient(to right, #FFA114, #F6421A);
+}/*# sourceMappingURL=style.css.map */

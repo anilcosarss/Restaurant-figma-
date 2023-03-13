@@ -1,0 +1,30 @@
+main {
+    background-image:linear-gradient(to top ,#13171A ,#31363A);
+nav {
+    position: sticky;
+    top: 0px;
+    background-color: transparent;
+    z-index: 3;
+    
+    
+
+    .profile-img {
+        width: 41px;
+        height: 41px;
+        font-size: 25px;
+        background-color: #C4C4C4;
+        color: white;
+    }
+
+    .nav-search {
+        background-color: #42474A;
+        padding: 0px 15px;
+        border-radius: 10px;
+    }
+    input {
+        background-color: #42474A;
+        border: none;
+    }
+}
+
+}

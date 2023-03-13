@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/variables.css">
+
+</head>
+
+<body>
+
+    <aside class="bg-dark d-none d-lg-block">
+        <img class="aside-logo" src="./img/login-logo.png" alt="">
+        <ul>
+            <li>
+                <button onclick="window.location.href = 'home.html';" class="btn btn-muted"> <img src="./img/aside-1.png" alt="">HOME</button>
+            </li>
+
+            <li>
+                <button onclick="window.location.href = 'order.html';" class="btn btn-muted"> <img src="./img/aside-2.png" alt="">ORDER HISTORY</button>
+            </li>
+
+            <li>
+                <button onclick="window.location.href = 'messages.html';" class="btn btn-muted"><img src="./img/aside-3.png" alt="">MESSAGES</button>
+            </li>
+
+            <li>
+                <button class="btn btn-muted"> <img src="./img/aside-4.png" alt="">STATISTICS</button>
+            </li>
+
+            <li>
+                <button onclick="window.location.href = 'products.html';" class="btn btn-muted"> <img src="./img/aside-5.png" alt="">PRODUCTS</button>
+            </li>
+
+            <li>
+                <button class="btn btn-muted"> <img src="./img/aside-6.png" alt="">SETTINGS</button>
+            </li>
+        </ul>
+
+        <div class="aside-bottom d-flex align-items-center">
+            <div class="green-circle rounded-circle me-2"></div> <span class="text-muted">Restaurant Open</span>
+        </div>
+    </aside>
+    <main>
+        <nav class="py-5 d-flex align-items-center">
+            <div class="container d-flex justify-content-between">
+                <div class="nav-search d-flex align-items-center">
+                    <img src="./img/search-icon.png" alt="" class="me-3 pt-1">
+                    <input type="text" class="p-0" placeholder="Search">
+
+                </div>
+
+                <div class="d-flex align-items-center justify-content-start pe-5">
+                    <div class="profile-img d-flex align-items-center justify-content-center rounded-circle">A</div>
+                    <p class="text-muted p-0 ms-2 m-0 ">Admin1_resto &#8595</p>
+                    <img src="./img/nav-bell.png" alt="" class="ms-5">
+                </div>
+            </div>
+        </nav>
+
+        <section class="products">
+            <div class="products-header">
+                <h3 class="text-white m-0">TOP RESTO is open</h3>
+                <p class="text-white">22 Mei 2021, 12.21 PM</p>
+            </div>
+            <div class="products-content">
+                <ul class="nav nav-tabs d-flex justify-content-between" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="main-tab" data-bs-toggle="tab" data-bs-target="#main"
+                            type="button" role="tab" aria-controls="home" aria-selected="true">Main Course</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="appetizer-tab" data-bs-toggle="tab" data-bs-target="#appetizer"
+                            type="button" role="tab" aria-controls="profile" aria-selected="false">Appetizer</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="dessert-tab" data-bs-toggle="tab" data-bs-target="#dessert"
+                            type="button" role="tab" aria-controls="contact" aria-selected="false">Dessert</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="soup-tab" data-bs-toggle="tab" data-bs-target="#soup" type="button"
+                            role="tab" aria-controls="profile" aria-selected="false">Soup</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="grill-tab" data-bs-toggle="tab" data-bs-target="#grill"
+                            type="button" role="tab" aria-controls="contact" aria-selected="false">Grill</button>
+                    </li>
+                </ul>
+
+                <div class="container">
+                    <div class="d-flex justify-content-between py-3">
+                        <h3 class="text-white">Choose Main Course</h3>
+                        <button class="d-flex justify-content-center align-items-center py-2 px-3 rounded-3 text-muted border-0 bg-dark gap-3 fs-5"> <img src="./img/filter.png" alt="">Filter</button>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active py-5" id="main" role="tabpanel" aria-labelledby="home-tab">
+
+                        <div class="container">
+                            <div class="row g-5">
+
+                                <div class="col-lg-4">
+                                    <div class="same-card-products text-center rounded-3 py-0">
+                                        <div class="same-card-products_content">
+                                            <div class="products-img">
+                                                <img src="./img/products-1.png" alt="">
+                                            </div>
+
+                                            <p class="meals-name text-white fw-bold">Loin of Vension Black <br> Pudding
+                                                Pure & Jerk</p>
+                                            <p class="meals-price text-muted">$12.5</p>
+                                            <p class="meals-number text-white">11 Plates Available</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="same-card-products text-center rounded-3 py-0">
+                                        <div class="same-card-products_content">
+                                            <div class="products-img">
+                                                <img src="./img/products-2.png" alt="">
+                                            </div>
+
+                                            <p class="meals-name text-white fw-bold">Loin of Vension Black <br> Pudding
+                                                Pure & Jerk</p>
+                                            <p class="meals-price text-muted">$12.5</p>
+                                            <p class="meals-number text-white">11 Plates Available</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="same-card-products text-center rounded-3 py-0">
+                                        <div class="same-card-products_content">
+                                            <div class="products-img">
+                                                <img src="./img/products-3.png" alt="">
+                                            </div>
+
+                                            <p class="meals-name text-white fw-bold">Loin of Vension Black <br> Pudding
+                                                Pure & Jerk</p>
+                                            <p class="meals-price text-muted">$12.5</p>
+                                            <p class="meals-number text-white">11 Plates Available</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="same-card-products text-center rounded-3 py-0">
+                                        <div class="same-card-products_content">
+                                            <div class="products-img">
+                                                <img src="./img/products-1.png" alt="">
+                                            </div>
+
+                                            <p class="meals-name text-white fw-bold">Loin of Vension Black <br> Pudding
+                                                Pure & Jerk</p>
+                                            <p class="meals-price text-muted">$12.5</p>
+                                            <p class="meals-number text-white">11 Plates Available</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="same-card-products text-center rounded-3 py-0">
+                                        <div class="same-card-products_content">
+                                            <div class="products-img">
+                                                <img src="./img/products-2.png" alt="">
+                                            </div>
+
+                                            <p class="meals-name text-white fw-bold">Loin of Vension Black <br> Pudding
+                                                Pure & Jerk</p>
+                                            <p class="meals-price text-muted">$12.5</p>
+                                            <p class="meals-number text-white">11 Plates Available</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="tab-pane fade py-5" id="appetizer" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="container">
+                            <div class="row g-5">
+
+                                <div class="col-lg-4">
+                                    <div class="same-card-products text-center rounded-3 py-0">
+                                        <div class="same-card-products_content">
+                                            <div class="products-img">
+                                                <img src="./img/products-1.png" alt="">
+                                            </div>
+
+                                            <p class="meals-name text-white fw-bold">Loin of Vension Black <br> Pudding
+                                                Pure & Jerk</p>
+                                            <p class="meals-price text-muted">$12.5</p>
+                                            <p class="meals-number text-white">11 Plates Available</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="same-card-products text-center rounded-3 py-0">
+                                        <div class="same-card-products_content">
+                                            <div class="products-img">
+                                                <img src="./img/products-2.png" alt="">
+                                            </div>
+
+                                            <p class="meals-name text-white fw-bold">Loin of Vension Black <br> Pudding
+                                                Pure & Jerk</p>
+                                            <p class="meals-price text-muted">$12.5</p>
+                                            <p class="meals-number text-white">11 Plates Available</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="same-card-products text-center rounded-3 py-0">
+                                        <div class="same-card-products_content">
+                                            <div class="products-img">
+                                                <img src="./img/products-3.png" alt="">
+                                            </div>
+
+                                            <p class="meals-name text-white fw-bold">Loin of Vension Black <br> Pudding
+                                                Pure & Jerk</p>
+                                            <p class="meals-price text-muted">$12.5</p>
+                                            <p class="meals-number text-white">11 Plates Available</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="same-card-products text-center rounded-3 py-0">
+                                        <div class="same-card-products_content">
+                                            <div class="products-img">
+                                                <img src="./img/products-1.png" alt="">
+                                            </div>
+
+                                            <p class="meals-name text-white fw-bold">Loin of Vension Black <br> Pudding
+                                                Pure & Jerk</p>
+                                            <p class="meals-price text-muted">$12.5</p>
+                                            <p class="meals-number text-white">11 Plates Available</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="same-card-products text-center rounded-3 py-0">
+                                        <div class="same-card-products_content">
+                                            <div class="products-img">
+                                                <img src="./img/products-2.png" alt="">
+                                            </div>
+
+                                            <p class="meals-name text-white fw-bold">Loin of Vension Black <br> Pudding
+                                                Pure & Jerk</p>
+                                            <p class="meals-price text-muted">$12.5</p>
+                                            <p class="meals-number text-white">11 Plates Available</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade py-5" id="dessert" role="tabpanel" aria-labelledby="contact-tab">
+                        <div class="container">
+                            <div class="row g-5">
+
+                                <div class="col-lg-4">
+                                    <div class="same-card-products text-center rounded-3 py-0">
+                                        <div class="same-card-products_content">
+                                            <div class="products-img">
+                                                <img src="./img/products-1.png" alt="">
+                                            </div>
+
+                                            <p class="meals-name text-white fw-bold">Loin of Vension Black <br> Pudding
+                                                Pure & Jerk</p>
+                                            <p class="meals-price text-muted">$12.5</p>
+                                            <p class="meals-number text-white">11 Plates Available</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="same-card-products text-center rounded-3 py-0">
+                                        <div class="same-card-products_content">
+                                            <div class="products-img">
+                                                <img src="./img/products-2.png" alt="">
+                                            </div>
+
+                                            <p class="meals-name text-white fw-bold">Loin of Vension Black <br> Pudding
+                                                Pure & Jerk</p>
+                                            <p class="meals-price text-muted">$12.5</p>
+                                            <p class="meals-number text-white">11 Plates Available</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+
+                                <div class="col-lg-4">
+                                    <div class="same-card-products text-center rounded-3 py-0">
+                                        <div class="same-card-products_content">
+                                            <div class="products-img">
+                                                <img src="./img/products-1.png" alt="">
+                                            </div>
+
+                                            <p class="meals-name text-white fw-bold">Loin of Vension Black <br> Pudding
+                                                Pure & Jerk</p>
+                                            <p class="meals-price text-muted">$12.5</p>
+                                            <p class="meals-number text-white">11 Plates Available</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="same-card-products text-center rounded-3 py-0">
+                                        <div class="same-card-products_content">
+                                            <div class="products-img">
+                                                <img src="./img/products-2.png" alt="">
+                                            </div>
+
+                                            <p class="meals-name text-white fw-bold">Loin of Vension Black <br> Pudding
+                                                Pure & Jerk</p>
+                                            <p class="meals-price text-muted">$12.5</p>
+                                            <p class="meals-number text-white">11 Plates Available</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade py-5" id="soup" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="container">
+                            <div class="row g-5">
+
+                                
+
+                                <div class="col-lg-4">
+                                    <div class="same-card-products text-center rounded-3 py-0">
+                                        <div class="same-card-products_content">
+                                            <div class="products-img">
+                                                <img src="./img/products-3.png" alt="">
+                                            </div>
+
+                                            <p class="meals-name text-white fw-bold">Loin of Vension Black <br> Pudding
+                                                Pure & Jerk</p>
+                                            <p class="meals-price text-muted">$12.5</p>
+                                            <p class="meals-number text-white">11 Plates Available</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="same-card-products text-center rounded-3 py-0">
+                                        <div class="same-card-products_content">
+                                            <div class="products-img">
+                                                <img src="./img/products-1.png" alt="">
+                                            </div>
+
+                                            <p class="meals-name text-white fw-bold">Loin of Vension Black <br> Pudding
+                                                Pure & Jerk</p>
+                                            <p class="meals-price text-muted">$12.5</p>
+                                            <p class="meals-number text-white">11 Plates Available</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="same-card-products text-center rounded-3 py-0">
+                                        <div class="same-card-products_content">
+                                            <div class="products-img">
+                                                <img src="./img/products-2.png" alt="">
+                                            </div>
+
+                                            <p class="meals-name text-white fw-bold">Loin of Vension Black <br> Pudding
+                                                Pure & Jerk</p>
+                                            <p class="meals-price text-muted">$12.5</p>
+                                            <p class="meals-number text-white">11 Plates Available</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade py-5" id="grill" role="tabpanel" aria-labelledby="contact-tab">
+                        <div class="container">
+                            <div class="row g-5">
+
+                                <div class="col-lg-4">
+                                    <div class="same-card-products text-center rounded-3 py-0">
+                                        <div class="same-card-products_content">
+                                            <div class="products-img">
+                                                <img src="./img/products-1.png" alt="">
+                                            </div>
+
+                                            <p class="meals-name text-white fw-bold">Loin of Vension Black <br> Pudding
+                                                Pure & Jerk</p>
+                                            <p class="meals-price text-muted">$12.5</p>
+                                            <p class="meals-number text-white">11 Plates Available</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="same-card-products text-center rounded-3 py-0">
+                                        <div class="same-card-products_content">
+                                            <div class="products-img">
+                                                <img src="./img/products-2.png" alt="">
+                                            </div>
+
+                                            <p class="meals-name text-white fw-bold">Loin of Vension Black <br> Pudding
+                                                Pure & Jerk</p>
+                                            <p class="meals-price text-muted">$12.5</p>
+                                            <p class="meals-number text-white">11 Plates Available</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </main>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
